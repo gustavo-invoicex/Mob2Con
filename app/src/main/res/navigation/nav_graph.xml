@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeListFragment">
+
+    <fragment
+        android:id="@+id/homeListFragment"
+        android:name="io.invoicex.mob2con.presentation.home.HomeListFragment"
+        android:label="Home List"
+        tools:layout="@layout/home_list_fragment" />
+
+    <fragment
+        android:id="@+id/validQRCodeFragment"
+        android:name="io.invoicex.mob2con.presentation.qrcode.ValidQRCodeFragment"
+        android:label="Valid QRCode"
+        tools:layout="@layout/valid_qr_code_fragment" />
+
+</navigation>
